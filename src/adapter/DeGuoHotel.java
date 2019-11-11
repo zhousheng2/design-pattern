@@ -11,7 +11,11 @@ public class DeGuoHotel {
 	public void setGuoJiSocket(GuoJiSocket socket){
 		this.socket = socket;
 	}
-	
+
+	public void setDBSocket(GuoJiSocket socket){
+		this.socket = socket;
+	}
+
 	// 在宾馆充电
 	public void charge(){
 		// 看起来是调用的DBSocket的标准进行充电，但是实质上是通过GBSocket完成充电

@@ -9,6 +9,7 @@ import java.lang.reflect.Constructor;
  * Class的成员方法
  * 		public Constructor<?>[] getConstructors() :返回该类的所有公共构造方法
  * 		public Constructor<?>[] getDeclaredConstructors() :返回该类的所有构造方法
+ * 	    public Constructor<T> getDeclaredConstructor(Class<?>... parameterTypes)	:返回该类的某个构造方法
  * 
  * 		public Constructor<T> getConstructor(Class<?>... parameterTypes) :返回该类的一个公共构造方法
  * 

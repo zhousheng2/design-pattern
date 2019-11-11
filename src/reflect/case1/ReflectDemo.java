@@ -43,11 +43,11 @@ public class ReflectDemo {
 		
 		//b）通过静态属性获取
 		Class c3 = Student.class;
-		System.out.println(c1 == c3);
+		System.out.println(c1 == c3);//true
 		
 		//c）通过静态方法获取，使用字符串表示的类名
 		Class c4 = Class.forName("reflect.Student");
-		System.out.println(c1 == c4);
+		System.out.println(c1 == c4);//true
 	}
 
 }

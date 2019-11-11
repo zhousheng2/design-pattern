@@ -29,7 +29,7 @@ public class ReflectTest {
 	public static void main(String[] args) throws Exception {
 		//2：使用Properties类读取reflect.txt文件
 		Properties properties = new Properties();
-		properties.load(new FileReader("reflect.txt"));
+		properties.load(new FileReader("E:\\zhousheng\\gitLab-07\\01-mybatis\\04-设计模式讲解\\design-pattern\\src\\reflect\\case5\\reflect.txt"));
 		
 		//3：通过Properties方法获取classNa
 		String className = properties.getProperty("className");
